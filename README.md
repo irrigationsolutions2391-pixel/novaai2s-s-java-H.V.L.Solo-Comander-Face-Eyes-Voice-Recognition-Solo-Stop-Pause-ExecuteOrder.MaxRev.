@@ -1,0 +1,2 @@
+# novaai2s-s-java-H.V.L.Solo-Comander-Face-Eyes-Voice-Recognition-Solo-Stop-Pause-ExecuteOrder.MaxRev.
+import requests  url = "https://api.landscapeforge.ai/v1/templates/YOUR_PROJECT_ID" headers = {"Authorization": "Bearer YOUR_KEY"}  with open("94bfd4.Templates-1.csv", "rb") as f:     files = {"file": f}     data = {"fileFormat": "csv"}          response = requests.post(url, headers=headers, files=files, data=data)     print(response.json())
