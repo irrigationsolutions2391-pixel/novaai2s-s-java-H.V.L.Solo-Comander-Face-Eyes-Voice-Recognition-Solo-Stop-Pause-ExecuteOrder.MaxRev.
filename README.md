@@ -1,20 +1,30 @@
 # Novaai2 Jav Java API Library
 
-[![Maven Central](https://img.shields.io/maven-central/v/com.configure_me_novaai2_jav.api/novaai2-jav-java)](https://central.sonatype.com/artifact/com.configure_me_novaai2_jav.api/novaai2-jav-java/0.0.1)
-[![javadoc](https://javadoc.io/badge2/com.configure_me_novaai2_jav.api/novaai2-jav-java/0.0.1/javadoc.svg)](https://javadoc.io/doc/com.configure_me_novaai2_jav.api/novaai2-jav-java/0.0.1)
+<!-- x-release-please-start-version -->
+
+[![Maven Central](https://img.shields.io/maven-central/v/com.configure_me_novaai2_jav.api/novaai2-jav-java)](https://central.sonatype.com/artifact/com.configure_me_novaai2_jav.api/novaai2-jav-java/0.0.2)
+[![javadoc](https://javadoc.io/badge2/com.configure_me_novaai2_jav.api/novaai2-jav-java/0.0.2/javadoc.svg)](https://javadoc.io/doc/com.configure_me_novaai2_jav.api/novaai2-jav-java/0.0.2)
+
+<!-- x-release-please-end -->
 
 The Novaai2 Jav Java SDK provides convenient access to the Novaai2 Jav REST API from applications written in Java.
 
 It is generated with [Stainless](https://www.stainless.com/).
 
-Javadocs are available on [javadoc.io](https://javadoc.io/doc/com.configure_me_novaai2_jav.api/novaai2-jav-java/0.0.1).
+<!-- x-release-please-start-version -->
+
+Javadocs are available on [javadoc.io](https://javadoc.io/doc/com.configure_me_novaai2_jav.api/novaai2-jav-java/0.0.2).
+
+<!-- x-release-please-end -->
 
 ## Installation
+
+<!-- x-release-please-start-version -->
 
 ### Gradle
 
 ```kotlin
-implementation("com.CONFIGURE_ME_novaai2_jav.api:novaai2-jav-java:0.0.1")
+implementation("com.CONFIGURE_ME_novaai2_jav.api:novaai2-jav-java:0.0.2")
 ```
 
 ### Maven
@@ -23,9 +33,11 @@ implementation("com.CONFIGURE_ME_novaai2_jav.api:novaai2-jav-java:0.0.1")
 <dependency>
   <groupId>com.CONFIGURE_ME_novaai2_jav.api</groupId>
   <artifactId>novaai2-jav-java</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.2</version>
 </dependency>
 ```
+
+<!-- x-release-please-end -->
 
 ## Requirements
 
@@ -245,6 +257,8 @@ If the SDK threw an exception, but you're _certain_ the version is compatible, t
 
 > [!CAUTION]
 > We make no guarantee that the SDK works correctly when the Jackson version check is disabled.
+
+Also note that there are bugs in older Jackson versions that can affect the SDK. We don't work around all Jackson bugs ([example](https://github.com/FasterXML/jackson-databind/issues/3240)) and expect users to upgrade Jackson for those instead.
 
 ## Network options
 
@@ -589,4 +603,4 @@ This package generally follows [SemVer](https://semver.org/spec/v2.0.0.html) con
 
 We take backwards-compatibility seriously and work hard to ensure you can rely on a smooth upgrade experience.
 
-We are keen for your feedback; please open an [issue](https://www.github.com/stainless-sdks/novaai2-jav-java/issues) with questions, bugs, or suggestions.
+We are keen for your feedback; please open an [issue](https://www.github.com/irrigationsolutions2391-pixel/novaai2s-s-java-H.V.L.Solo-Comander-Face-Eyes-Voice-Recognition-Solo-Stop-Pause-ExecuteOrder.MaxRev./issues) with questions, bugs, or suggestions.

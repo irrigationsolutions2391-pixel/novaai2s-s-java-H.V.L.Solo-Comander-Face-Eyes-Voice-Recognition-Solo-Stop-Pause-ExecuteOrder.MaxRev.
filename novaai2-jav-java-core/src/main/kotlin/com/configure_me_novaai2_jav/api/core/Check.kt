@@ -77,7 +77,7 @@ This can happen if you are either:
 
 Double-check that you are depending on compatible Jackson versions.
 
-See https://www.github.com/stainless-sdks/novaai2-jav-java#jackson for more information.
+See https://www.github.com/irrigationsolutions2391-pixel/novaai2s-s-java-H.V.L.Solo-Comander-Face-Eyes-Voice-Recognition-Solo-Stop-Pause-ExecuteOrder.MaxRev.#jackson for more information.
         """
             .trimIndent()
     }

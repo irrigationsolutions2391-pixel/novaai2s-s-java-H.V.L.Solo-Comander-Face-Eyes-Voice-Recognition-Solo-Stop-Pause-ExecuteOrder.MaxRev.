@@ -11,7 +11,7 @@ configure<PublishingExtension> {
             pom {
                 name.set("OpenAPI 3.0 Pet Store")
                 description.set("This is a sample Pet Store Server based on the OpenAPI 3.0 specification.")
-                url.set("https://www.github.com/stainless-sdks/novaai2-jav-java")
+                url.set("https://www.github.com/irrigationsolutions2391-pixel/novaai2s-s-java-H.V.L.Solo-Comander-Face-Eyes-Voice-Recognition-Solo-Stop-Pause-ExecuteOrder.MaxRev.")
 
                 licenses {
                     license {
@@ -26,9 +26,9 @@ configure<PublishingExtension> {
                 }
 
                 scm {
-                    connection.set("scm:git:git://github.com/stainless-sdks/novaai2-jav-java.git")
-                    developerConnection.set("scm:git:git://github.com/stainless-sdks/novaai2-jav-java.git")
-                    url.set("https://github.com/stainless-sdks/novaai2-jav-java")
+                    connection.set("scm:git:git://github.com/irrigationsolutions2391-pixel/novaai2s-s-java-H.V.L.Solo-Comander-Face-Eyes-Voice-Recognition-Solo-Stop-Pause-ExecuteOrder.MaxRev..git")
+                    developerConnection.set("scm:git:git://github.com/irrigationsolutions2391-pixel/novaai2s-s-java-H.V.L.Solo-Comander-Face-Eyes-Voice-Recognition-Solo-Stop-Pause-ExecuteOrder.MaxRev..git")
+                    url.set("https://github.com/irrigationsolutions2391-pixel/novaai2s-s-java-H.V.L.Solo-Comander-Face-Eyes-Voice-Recognition-Solo-Stop-Pause-ExecuteOrder.MaxRev.")
                 }
 
                 versionMapping {
@@ -36,6 +36,14 @@ configure<PublishingExtension> {
                         fromResolutionResult()
                     }
                 }
+            }
+        }
+    }
+    repositories {
+        if (project.hasProperty("publishLocal")) {
+            maven {
+                name = "LocalFileSystem"
+                url = uri("${rootProject.layout.buildDirectory.get()}/local-maven-repo")
             }
         }
     }
